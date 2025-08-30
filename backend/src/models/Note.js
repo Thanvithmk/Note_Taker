@@ -4,13 +4,13 @@ import mongoose from "mongoose";
 const noteSchema = new mongoose.Schema(
   {
     title: {
-      String,
+      type:String,
       required: true,
     },
     content: {
-      String,
+      type:String,
       required: true,
-    },
+    }
   },
   { timestamps: true } //to automatically add createdAt and updatedAt fields
 );
