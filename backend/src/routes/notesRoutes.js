@@ -1,6 +1,7 @@
 import express from "express";
 import {
   getAllNotes,
+  getNoteByID,
   createNote,
   updateNote,
   deleteNote,
@@ -8,6 +9,8 @@ import {
 const router = express.Router();
 
 router.get("/", getAllNotes); // from controllers
+
+router.get("/:id", getNoteByID); // from controllers
 
 router.post("/", createNote); // from controllers
 
