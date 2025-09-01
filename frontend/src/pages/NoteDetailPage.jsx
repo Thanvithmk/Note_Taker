@@ -36,7 +36,7 @@ const NoteDetailPage = () => {
     try {
       await api.delete(`/notes/${id}`);
       toast.success("Note deleted");
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       console.log("Error deleting the note:", error);
       toast.error("Failed to delete note");
