@@ -6,6 +6,8 @@ import api from "../lib/axios";
 import toast from "react-hot-toast";
 import NoteCard from "../components/NoteCard";
 import NotesNotFound from "../components/NotesNotFound";
+import Footer from "../components/footer";
+
 
 const HomePage = () => {
   const [isRateLimited, setIsRateLimited] = useState(false);
@@ -54,6 +56,7 @@ const HomePage = () => {
           </div>
         )}
       </div>
+    <Footer/>
     </div>
   );
 };
