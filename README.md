@@ -1,4 +1,4 @@
-A full-stack Note Taking Application built with the MERN stack (MongoDB, Express, React, Node.js).
+#A full-stack Note Taking Application built with the MERN stack (MongoDB, Express, React, Node.js).
 Users can create, view, update, and delete notes. The app is designed with a simple and 
 responsive UI and deployed for production use.
 
