@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div data-theme="forest">
       <Routes>
+        <Route path="/" element={<Navigate to="/home" />} /> 
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/create" element={<CreatePage/>}/>
         <Route path="/note/:id" element={<NoteDetailPage/>}/>
